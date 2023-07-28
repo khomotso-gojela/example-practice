@@ -7,5 +7,26 @@
 }
 
 body {
+    margin: 0;
+    background: var(--color-medium-gray);
+    color: var(--color-white);
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
 
+/* header */
+
+.header {
+    text-align: center;
+}
+
+
+/* control */
+.controls {
+    background: yellow;
+}
+
+/* counter */
+
+.counter {
+    background: var(--color-dark-gray);
 }
