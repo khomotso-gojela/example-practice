@@ -15,7 +15,7 @@
     </head>
     <body>
         <header class="header">
-            <h1>Tally Count</h1>
+            <h1 class="header__title">Tally Count</h1>
         </header>
         
         <aside class="controls">
@@ -41,9 +41,16 @@
 
         <main class="counter">
             <input class="counter__value" readonly value="10">
-            <button class="counter__button">-</button>
-            <button class="counter__button">+</button>
+
+            <div class="counter__actions">
+                <button class="counter__button counter__buttons_first">-</button>
+                <button class="counter__button counter__buttons_second">+</button>
+            </div>
         </main>
+
+        <footer class="footer">
+            Inspired by <a class="footer__link" href="https://tallycount.app">Tally count</a>. Note that this is merely a student practice project for learning javascript.
+        </footer>
 
     </body>
 </html> 
