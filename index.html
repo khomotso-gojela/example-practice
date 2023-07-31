@@ -12,6 +12,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+        
+        <script src="/scripts.js" defer></script>
     </head>
     <body>
         <header class="header">
@@ -40,11 +42,11 @@
         </aside>
 
         <main class="counter">
-            <input class="counter__value" readonly value="10">
+            <input class="counter__value" data-key="number" readonly value="0">
 
             <div class="counter__actions">
-                <button class="counter__button counter__buttons_first">-</button>
-                <button class="counter__button counter__buttons_second">+</button>
+                <button data-key="subtract" class="counter__button counter__buttons_first">-</button>
+                <button data-key="add" class="counter__button counter__buttons_second">+</button>
             </div>
         </main>
 
